@@ -1,17 +1,30 @@
 local options = {
 	backup = false,
 	fileencoding  = "uft-8",
+
 	number = true,
 	relativenumber = true,
-	tabstop = 4,
 	numberwidth = 1,
-	expandtab = true,
+
+	tabstop = 4,
+    softtabstop = 4,
+    shiftwidth = 4,
+    expandtab = true,
+
 	smartindent = true,
+
 	guicursor = "",
+
 	conceallevel = 0,
+
     clipboard = "unnamedplus",
+
+    hlsearch = false,
+    incsearch = true,
+
+    scrolloff = 8,
+
     wrap = false,
-    guifont = "monospace:h17",
 }
 
 for k, v in pairs(options) do
